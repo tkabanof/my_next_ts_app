@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.join_vip_club {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  div {
+    margin: 10px;
+  }
+}

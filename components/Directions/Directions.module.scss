@@ -1,0 +1,26 @@
+
+.main_directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  div {
+    margin-top: 1em;
+  }
+}
+.main_directions_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main_directions_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2%;
+  flex-grow: 1;
+}
+.main_direction {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}

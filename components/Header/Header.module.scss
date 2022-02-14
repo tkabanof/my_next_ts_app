@@ -1,0 +1,77 @@
+
+@import "../../styles/variables";
+
+
+.container {
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+
+}
+
+.menu {
+  //background-color: lightblue;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  a {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  align-items: center;
+}
+
+.menu-item {
+
+}
+
+.logo {
+  width: 154px;
+  height: 115px;
+  left: 120px;
+}
+
+.loginButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7.375px 11.8px;
+
+  width: 118px;
+  height: 32.45px;
+  left: 1202px;
+  top: 41.78px;
+
+  background: #F8D062;
+  border: 1.475px solid #F8D062;
+  box-sizing: border-box;
+  border-radius: 147.5px;
+
+
+  a {
+    width: 94.4px;
+    height: 17.7px;
+    left: 11.8px;
+    top: 7.38px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #1B3425;
+
+  }
+}

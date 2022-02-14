@@ -1,0 +1,33 @@
+@import "../../../styles/variables";
+
+.card {
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    margin: 10px;
+    font-family: Roboto, sans-serif;
+    flex-grow: 1;
+    font-size: 14px;
+  }
+}
+
+.cardGreen {
+  @extend .card;
+  background-color: $primary-color;
+  p {
+    color: $second-color;
+  }
+}
+
+.cardYellow {
+  @extend .card;
+  background-color: $second-color;
+  p {
+    color: $primary-color;
+  }
+}
