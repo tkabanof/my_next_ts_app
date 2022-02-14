@@ -4,7 +4,7 @@ type thisProps = {
     a: string,
     b: string,
     c: string,
-    type: 1 | 2
+    type: number
 }
 
 const Card = (props: thisProps) => {

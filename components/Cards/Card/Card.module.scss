@@ -1,12 +1,13 @@
 @import "../../../styles/variables";
 
 .card {
-  width: 200px;
-  height: 200px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  flex-basis: 300px; height: 300px;
+  flex-grow: 0;
 
   p {
     margin: 10px;
