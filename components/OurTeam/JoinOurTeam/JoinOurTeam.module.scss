@@ -1,0 +1,46 @@
+@import "../../../styles/variables";
+
+.join_form_layoult {
+  margin-top: 83px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.join_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+    p {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 44px;
+    }
+
+}
+.button {
+  margin-top: 40px;
+  width: 15em;
+  height: 4em;
+  color: $second-color;
+  background-color: $primary-color;
+}
+.email_input {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-size: 18px;
+}
+.addFileLabel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #9E9E9E;
+
+}

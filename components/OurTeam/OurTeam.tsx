@@ -1,6 +1,7 @@
 import {members} from "../../demo_state/quade_data";
 import Member from "./Member/Member";
 import s from './OurTeam.module.scss'
+import JoinOurTeam from "./JoinOurTeam/JoinOurTeam";
 
 
 const OurTeam = () => {
@@ -25,6 +26,7 @@ const OurTeam = () => {
                                         ph={i.ph}
             />)}
         </div>
+        <JoinOurTeam />
 
     </div>)
 }
