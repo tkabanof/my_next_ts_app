@@ -1,15 +1,15 @@
 import s from "./Cards.module.scss"
-import {cards} from "../../demo_state/quade_data";
+import {cards} from "../../demo_state/store";
 import Card from "./Card/Card";
 
 const Cards = () => {
     return (<div>
         <div className={s.cards}>
             {cards.map((i) => {
-                return <Card key={i.key} a={i.a} b={i.b} c={i.c} type={i.type} image = {i.backGroundImage}/>
+                return <Card key={i.key} head={i.a} middle={i.b} bottom={i.c} type={i.type} image = {i.backGroundImage}/>
             })}
         </div>
-        <div style={{display: "flex", justifyContent: "Center", marginTop: "2em"}}>
+        <div className={s.add_else}>
             <button className={s.buttonAdd}>Загрузить еще</button>
         </div>
     </div>)

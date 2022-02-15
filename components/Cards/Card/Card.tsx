@@ -1,23 +1,28 @@
 import s from './Card.module.scss'
-import Image from "next/image"
-import BackGroundImage from "../../Directions/BackGroundImage/BackGroundImage";
 
-type thisProps = {
-    a: string,
-    b: string,
-    c: string,
+type CardProps = {
+    head: string,
+    middle: string,
+    bottom: string,
     type: number,
     image?: StaticImageData
 }
 
-const Card = (props: thisProps) => {
+const Card = (props: CardProps) => {
     let style = props.type === 1 ? s.cardGreen : s.cardYellow
     return (
         <div className={style}>
-        <p style={{paddingLeft: "5px"}}>{props.a}</p>
-        <p style={{flexGrow: "5", fontSize: "30px", alignSelf: "center"}}>{props.b}</p>
-        {Array.isArray(props.c) ? props.c.map((i)=><p key = {i.id} style={{paddingLeft: "5px"}}>{i.value}</p>) :
-            <p style={{paddingLeft: "5px"}}>{props.c}</p>}
+            <div className={s.card_head}>
+                <p>{props.head}</p>
+            </div>
+            <div className={s.card_middle}>
+                <p>{props.middle}</p>
+            </div>
+            {Array.isArray(props.bottom) ? <div className={s.card_bottom}>
+                    {props.bottom.map((i) =>
+                        <p key={i.id}>{i.value}</p>)}
+                </div> :
+                <p className={s.card_bottom}>{props.bottom}</p>}
         </div>)
 }
 

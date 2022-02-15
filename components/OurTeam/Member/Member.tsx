@@ -3,19 +3,17 @@ import Image from "next/image"
 
 type thisProps = {
     image: StaticImageData,
-    name1: string,
-    name2: string,
-    ph: string
+    firstName: string,
+    secondName: string,
+    phone: string
 }
 const Member = (props: thisProps) => {
     return (<div className={s.member}>
         <Image src={props.image}/>
         <div className={s.member_info}>
-            <p>{props.name1 + ' ' + props.name2}</p>
+            <p>{props.firstName + ' ' + props.secondName}</p>
             <div className={s.greyText}><p>Брокер первичной недвижимости</p></div>
-            <div className={s.greyText}
-                 style={{marginTop: "43px"}}
-            ><p>Телефон: {props.ph}</p></div>
+            <div className={s.greyTextSecond}><p>Телефон: {props.phone}</p></div>
         </div>
     </div>)
 }

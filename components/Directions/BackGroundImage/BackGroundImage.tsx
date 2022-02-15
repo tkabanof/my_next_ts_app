@@ -6,7 +6,9 @@ type thisProps = {
 }
 const BackGroundImage = (props: thisProps) => {
     return (<div className={s.image}>
-        <Image src = {props.image}/>
+        <Image
+            alt="Picture"
+            src = {props.image}/>
     </div>)
 }
 export default BackGroundImage

@@ -1,5 +1,5 @@
 import s from "./Directions.module.scss"
-import {directions} from "../../demo_state/quade_data";
+import {directions} from "../../demo_state/store";
 import Image from "next/image"
 
 const Directions = () => {
@@ -12,7 +12,8 @@ const Directions = () => {
             {directions.map((i) => <div key={i.id} className={s.main_direction}>
                 <div>
                     <Image
-                    src = {i.image}
+                        alt="Picture"
+                        src={i.image}
                     />
                     <div><p>{i.value}</p></div>
                 </div>

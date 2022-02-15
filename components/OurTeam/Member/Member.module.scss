@@ -6,7 +6,6 @@ $greyColor: #9E9E9E;
   justify-content: flex-start;
   width: 280px;
   margin-top: 83px;
-
 }
 
 .greyText {
@@ -14,9 +13,15 @@ $greyColor: #9E9E9E;
     color: $greyColor;
   }
 }
+.greyTextSecond {
+  margin-top: 43px;
+  p {
+    color: $greyColor;
+  }
+}
 .member_info {
-  margin-top: 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 16px;
 }

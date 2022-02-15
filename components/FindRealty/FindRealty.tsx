@@ -7,7 +7,9 @@ const FindRealty = () => {
     return (<div className={s.first_block}>
         <div>
             <p>Агентво недвижимости</p>
-            <p style={{fontSize: "3em"}}>Департамент красивой жизни</p>
+            <div className={s.dept_buty_life}>
+                <p>Департамент красивой жизни</p>
+            </div>
             <div>
                 <span>
                 Мы агентство недвижимости, работающее на рынке Санкт-Петербурга, самостоятельный брокер
@@ -21,6 +23,7 @@ const FindRealty = () => {
         </div>
         <div>
             <Image src={img}
+                   alt="Picture"
             />
         </div>
     </div>)
