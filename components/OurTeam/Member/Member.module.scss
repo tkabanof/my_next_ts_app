@@ -1,0 +1,22 @@
+$greyColor: #9E9E9E;
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 280px;
+  margin-top: 83px;
+
+}
+
+.greyText {
+  p {
+    color: $greyColor;
+  }
+}
+.member_info {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

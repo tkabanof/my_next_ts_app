@@ -4,6 +4,9 @@ import image3 from "./assets/Rectangle 77-2.png"
 import image4 from "./assets/Rectangle 77-3.png"
 import image5 from "./assets/Rectangle 77-4.png"
 
+import mem1image from "./assets/members/mem1.png"
+import mem2image from "./assets/members/mem2.png"
+
 export let cards: Array<any> = [
     {
         a: "Ипотека",
@@ -124,5 +127,64 @@ export let directions: Array<direction> = [
         id: 5,
         image: image5,
         value: "Ипотека"
+    }
+]
+
+export let members:Array<any> = [
+    {
+        id: 1,
+        image: mem1image,
+        name1: "Александр",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 2,
+        image: mem2image,
+        name1: "Александра",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 3,
+        image: mem1image,
+        name1: "Александр",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 4,
+        image: mem2image,
+        name1: "Александр",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 5,
+        image: mem1image,
+        name1: "Александр",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 6,
+        image: mem2image,
+        name1: "Александра",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 7,
+        image: mem1image,
+        name1: "Александр",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
+    },
+    {
+        id: 8,
+        image: mem2image,
+        name1: "Александра",
+        name2: "Клиничев",
+        ph: "+7 911 000 00 00"
     }
 ]

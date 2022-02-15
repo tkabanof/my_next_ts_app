@@ -8,6 +8,7 @@ import ResultBlock from "../components/ResultBlock/ResultBlock";
 import CallRequest from "../components/CallRequest/CallRequest";
 import Directions from "../components/Directions/Directions";
 import Joincard from "../components/JoinCard/Joincard";
+import OurTeam from "../components/OurTeam/OurTeam";
 
 const Home: NextPage = () => {
     return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
                 <CallRequest />
                 <Directions />
                 <Joincard />
+                <OurTeam />
             </main>
         </div>
     )
