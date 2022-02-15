@@ -1,9 +1,15 @@
+import image1 from "./assets/Rectangle77.png"
+import image2 from "./assets/Rectangle 77-1.png"
+import image3 from "./assets/Rectangle 77-2.png"
+import image4 from "./assets/Rectangle 77-3.png"
+import image5 from "./assets/Rectangle 77-4.png"
+
 export let cards: Array<any> = [
     {
         a: "Ипотека",
         b: "0,01%",
         c: "Втб банк",
-        backGroundImage: null,
+        backGroundImage: "",
         type: 1
     },
     {
@@ -17,7 +23,7 @@ export let cards: Array<any> = [
             id: 2,
                 value: "Гороховая ул., д. 8/13"
             }],
-        backGroundImage: "",
+        backGroundImage: image1,
         type: 2
     },
     {
@@ -89,34 +95,34 @@ export let results: result = {
 
 type direction = {
     id: number,
-    image: string,
+    image: StaticImageData,
     value: string
 }
 
 export let directions: Array<direction> = [
     {
         id: 1,
-        image: "",
+        image: image1,
         value: "Строящаяся недвижимость"
     },
     {
         id: 2,
-        image: "",
+        image: image2,
         value: "Вторичная недвижимость"
     },
     {
         id: 3,
-        image: "",
+        image: image3,
         value: "Элитная недвижимость"
     },
     {
         id: 4,
-        image: "",
+        image: image4,
         value: "Инвестиционная недвижимость"
     },
     {
         id: 5,
-        image: "",
+        image: image5,
         value: "Ипотека"
     }
 ]

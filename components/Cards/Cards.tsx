@@ -6,7 +6,7 @@ const Cards = () => {
     return (<div>
         <div className={s.cards}>
             {cards.map((i) => {
-                return <Card key={i.key} a={i.a} b={i.b} c={i.c} type={i.type}/>
+                return <Card key={i.key} a={i.a} b={i.b} c={i.c} type={i.type} image = {i.backGroundImage}/>
             })}
         </div>
         <div style={{display: "flex", justifyContent: "Center", marginTop: "2em"}}>
