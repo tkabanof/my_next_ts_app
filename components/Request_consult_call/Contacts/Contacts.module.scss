@@ -1,0 +1,49 @@
+@import "../../../styles/variables";
+
+.contacts_layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contacts_head {
+  p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+
+  margin: 10px;
+}
+.bold_type {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-top: 16px;
+}
+.grey_type {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: $second-color;
+
+  opacity: 0.66;
+}
+.block {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

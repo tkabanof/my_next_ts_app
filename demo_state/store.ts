@@ -7,6 +7,15 @@ import image5 from "./assets/Rectangle 77-4.png"
 import mem1image from "./assets/members/mem1.png"
 import mem2image from "./assets/members/mem2.png"
 
+import partner1 from "./assets/partners/aad.png"
+import partner2 from "./assets/partners/cds.png"
+import partner3 from "./assets/partners/etalon.png"
+import partner4 from "./assets/partners/euroInvest.png"
+import partner5 from "./assets/partners/legenda.png"
+import partner6 from "./assets/partners/rbi.png"
+import partner7 from "./assets/partners/rosstroiinvest.png"
+import partner8 from "./assets/partners/Vector.png"
+
 export let cards: Array<any> = [
     {
         a: "Ипотека",
@@ -188,38 +197,42 @@ export let members:Array<any> = [
         ph: "+7 911 000 00 00"
     }
 ]
-export let partners: Array<any> = [
+type partner = {
+    id: number,
+    image: StaticImageData | string
+}
+export let partners: Array<partner> = [
     {
         id: 1,
-        image: ""
+        image: partner1
     },
     {
         id: 2,
-        image: ""
+        image: partner2
     },
     {
         id: 3,
-        image: ""
+        image: partner3
     },
     {
         id: 4,
-        image: ""
+        image: partner4
     },
     {
         id: 5,
-        image: ""
+        image: partner5
     },
     {
         id: 6,
-        image: ""
+        image: partner6
     },
     {
         id: 7,
-        image: ""
+        image: partner7
     },
     {
         id: 8,
-        image: ""
+        image: partner8
     },
     {
         id: 9,

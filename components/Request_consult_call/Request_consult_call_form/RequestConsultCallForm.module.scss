@@ -1,0 +1,72 @@
+@import "../../../styles/variables";
+
+.request_consult_call_form_layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.request_consult_call_form_head {
+  p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+
+    margin-bottom: 40px;
+  }
+}
+.request_consult_call_form_head_bottom {
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  margin-top: 40px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 231px;
+  height: 58px;
+
+  background-color: $second-color;
+  color: $primary-color;
+
+  border: 0;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+.input_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-size: 18px;
+    background-color: transparent;
+    color: black;
+
+    margin-bottom: 40px;
+    &::placeholder {
+      color: black;
+    }
+
+
+  }
+
+}

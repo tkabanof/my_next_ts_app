@@ -1,0 +1,11 @@
+.partnerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+  $width: 1200px;
+  width: $width/4 - 20px;
+  height: $width/4 - 20px;
+}

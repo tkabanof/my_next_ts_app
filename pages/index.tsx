@@ -9,6 +9,8 @@ import CallRequest from "../components/CallRequest/CallRequest";
 import Directions from "../components/Directions/Directions";
 import Joincard from "../components/JoinCard/Joincard";
 import OurTeam from "../components/OurTeam/OurTeam";
+import Partners from "../components/Partners/Partners";
+import Request_consult_call from "../components/Request_consult_call/Request_consult_call";
 
 const Home: NextPage = () => {
     return (
@@ -26,6 +28,8 @@ const Home: NextPage = () => {
                 <Directions />
                 <Joincard />
                 <OurTeam />
+                <Partners />
+                <Request_consult_call />
             </main>
         </div>
     )
