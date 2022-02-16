@@ -1,7 +1,6 @@
 import s from "./Cards.module.scss"
 import {cards} from "../../demo_state/store";
 import Card from "./Card/Card";
-
 const Cards = () => {
     return (<div>
         <div className={s.cards}>
